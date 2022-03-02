@@ -1,0 +1,283 @@
+html body {
+    background-color: #3c2f2f;
+}
+
+html body .primary {
+    color: #E3E1E1;
+    background-color: #3c2f2f;
+}
+
+html body .secondary {
+    color: #E5E2E1;
+    background-color: #4b3832;
+}
+
+html body .tertiary {
+    color: #120909;
+    background-color: #854442;
+}
+
+html body .quaternary {
+    color: #1B1611;
+    background-color: #be9b7b;
+}
+
+html body nav .dropdown-item {
+    color: #DFDFE0;
+}
+
+html body header {
+    background-color: #fff4e6;
+}
+
+html body header .container {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #242220;
+}
+
+html body header img {
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+html body header p {
+    margin-top: 1rem;
+}
+
+html body main .container {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+html body main .container h2 {
+    padding: 1.5rem 0 0 0;
+}
+
+html body main .container p {
+    margin: 1rem 2rem;
+    text-align: left;
+}
+
+html body main .container ul {
+    list-style: none;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+
+html body main .container li {
+    margin-bottom: 0.5rem;
+}
+
+html body main .row {
+    margin: 0 -0.75rem;
+}
+
+html body main .flex-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+html body main .flex-container .btn-primary {
+    color: #E5E2E1;
+    background-color: #4b3832;
+    border-color: #342723;
+}
+
+html body main .flex-container .btn-primary:hover {
+    color: black;
+    background-color: #5a433c;
+    border-color: #6a4f46;
+}
+
+.btn-check:focus+html body main .flex-container .btn-primary,
+html body main .flex-container .btn-primary:focus {
+    color: black;
+    background-color: #5a433c;
+    border-color: #6a4f46;
+    box-shadow: 0 0 0 0.25rem rgba(79, 67, 64, 0.5);
+}
+
+.btn-check:checked+html body main .flex-container .btn-primary,
+.btn-check:active+html body main .flex-container .btn-primary,
+html body main .flex-container .btn-primary:active,
+html body main .flex-container .btn-primary.active,
+.show>html body main .flex-container .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #6f605b;
+    border-color: #483d39;
+}
+
+.btn-check:checked+html body main .flex-container .btn-primary:focus,
+.btn-check:active+html body main .flex-container .btn-primary:focus,
+html body main .flex-container .btn-primary:active:focus,
+html body main .flex-container .btn-primary.active:focus,
+.show>html body main .flex-container .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(79, 67, 64, 0.5);
+}
+
+html body main .flex-container .btn-primary:disabled,
+html body main .flex-container .btn-primary.disabled {
+    color: #fff;
+    background-color: #4b3832;
+    border-color: #342723;
+}
+
+html body main .flex-container .btn-primary:hover {
+    color: #E5E2E1;
+}
+
+html body main .flex-container .btn-outline-primary {
+    color: #4b3832;
+    border-color: #4b3832;
+}
+
+html body main .flex-container .btn-outline-primary:hover {
+    color: #222222;
+    background-color: #5a433c;
+    border-color: #4b3832;
+}
+
+.btn-check:focus+html body main .flex-container .btn-outline-primary,
+html body main .flex-container .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(75, 56, 50, 0.5);
+}
+
+.btn-check:checked+html body main .flex-container .btn-outline-primary,
+.btn-check:active+html body main .flex-container .btn-outline-primary,
+html body main .flex-container .btn-outline-primary:active,
+html body main .flex-container .btn-outline-primary.active,
+html body main .flex-container .btn-outline-primary.dropdown-toggle.show {
+    color: #fff;
+    background-color: #5a433c;
+    border-color: #4b3832;
+}
+
+.btn-check:checked+html body main .flex-container .btn-outline-primary:focus,
+.btn-check:active+html body main .flex-container .btn-outline-primary:focus,
+html body main .flex-container .btn-outline-primary:active:focus,
+html body main .flex-container .btn-outline-primary.active:focus,
+html body main .flex-container .btn-outline-primary.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0.25rem rgba(75, 56, 50, 0.5);
+}
+
+html body main .flex-container .btn-outline-primary:disabled,
+html body main .flex-container .btn-outline-primary.disabled {
+    color: #4b3832;
+    background-color: transparent;
+}
+
+html body main .flex-container .btn-secondary {
+    color: #120909;
+    background-color: #854442;
+    border-color: #6b3735;
+}
+
+html body main .flex-container .btn-secondary:hover {
+    color: #1f100f;
+    background-color: #964d4a;
+    border-color: #a75553;
+}
+
+.btn-check:focus+html body main .flex-container .btn-secondary,
+html body main .flex-container .btn-secondary:focus {
+    color: #1f100f;
+    background-color: #964d4a;
+    border-color: #a75553;
+    box-shadow: 0 0 0 0.25rem rgba(94, 48, 46, 0.5);
+}
+
+.btn-check:checked+html body main .flex-container .btn-secondary,
+.btn-check:active+html body main .flex-container .btn-secondary,
+html body main .flex-container .btn-secondary:active,
+html body main .flex-container .btn-secondary.active,
+.show>html body main .flex-container .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #9d6968;
+    border-color: #7a4b49;
+}
+
+.btn-check:checked+html body main .flex-container .btn-secondary:focus,
+.btn-check:active+html body main .flex-container .btn-secondary:focus,
+html body main .flex-container .btn-secondary:active:focus,
+html body main .flex-container .btn-secondary.active:focus,
+.show>html body main .flex-container .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(94, 48, 46, 0.5);
+}
+
+html body main .flex-container .btn-secondary:disabled,
+html body main .flex-container .btn-secondary.disabled {
+    color: #fff;
+    background-color: #854442;
+    border-color: #6b3735;
+}
+
+html body main .flex-container .btn-secondary:hover {
+    color: #120909;
+}
+
+html body main .flex-container .btn-outline-secondary {
+    color: #854442;
+    border-color: #854442;
+}
+
+html body main .flex-container .btn-outline-secondary:hover {
+    color: #222222;
+    background-color: #964d4a;
+    border-color: #854442;
+}
+
+.btn-check:focus+html body main .flex-container .btn-outline-secondary,
+html body main .flex-container .btn-outline-secondary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(133, 68, 66, 0.5);
+}
+
+.btn-check:checked+html body main .flex-container .btn-outline-secondary,
+.btn-check:active+html body main .flex-container .btn-outline-secondary,
+html body main .flex-container .btn-outline-secondary:active,
+html body main .flex-container .btn-outline-secondary.active,
+html body main .flex-container .btn-outline-secondary.dropdown-toggle.show {
+    color: #fff;
+    background-color: #964d4a;
+    border-color: #854442;
+}
+
+.btn-check:checked+html body main .flex-container .btn-outline-secondary:focus,
+.btn-check:active+html body main .flex-container .btn-outline-secondary:focus,
+html body main .flex-container .btn-outline-secondary:active:focus,
+html body main .flex-container .btn-outline-secondary.active:focus,
+html body main .flex-container .btn-outline-secondary.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0.25rem rgba(133, 68, 66, 0.5);
+}
+
+html body main .flex-container .btn-outline-secondary:disabled,
+html body main .flex-container .btn-outline-secondary.disabled {
+    color: #854442;
+    background-color: transparent;
+}
+
+html body main .opus {
+    margin-top: 0;
+}
+
+html body main .opus h2 {
+    font-family: "Great Vibes", sans-serif;
+}
+
+html body main .opus-row {
+    margin-top: 3rem;
+}
+
+html body main .opus-row .piece {
+    padding-bottom: 1.5rem;
+}
+
+html body footer {
+    margin-top: 4rem;
+    padding-bottom: 2.25rem;
+}
